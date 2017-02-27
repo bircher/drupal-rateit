@@ -1,0 +1,28 @@
+
+
+rateit:
+  version: VERSION
+  css:
+    component:
+      css/element.rateit.css: {}
+  js:
+    js/element.rateit.js: {}
+  dependencies:
+    - rateit/jquery.rateit
+
+jquery.rateit:
+  remote: https://github.com/gjunge/rateit.js
+  version: 1.1.1
+  license:
+    name: MIT
+    url: https://github.com/gjunge/rateit.js/blob/master/LICENSE.md
+    gpl-compatible: true
+  cdn:
+    /libraries/jquery.rateit/: https://cdn.rawgit.com/gjunge/rateit.js/1.1.1/
+  css:
+    theme:
+      /libraries/jquery.rateit/scripts/rateit.css: {}
+  js:
+    /libraries/jquery.rateit/scripts/jquery.rateit.min.js: {}
+  dependencies:
+    - core/jquery
